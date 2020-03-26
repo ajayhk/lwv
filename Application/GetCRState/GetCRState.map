@@ -1,0 +1,30 @@
+ GetCRState
+
+ Timestamp is 46ec97e9 (Sun Sep 16 08:11:45 2007)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000073cH .text                   CODE
+ 0002:00000000 000007cdH .data                   DATA
+ 0002:000007d0 00000004H .bss                    DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   00000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   00000000     <absolute>
+ 0001:00000000       _ClearScreen               00400220 f   getcrstate.obj
+ 0001:00000060       _PrintValue                00400280 f   getcrstate.obj
+ 0001:000000d0       _PrintString               004002f0 f   getcrstate.obj
+ 0001:00000150       _Delay                     00400370 f   getcrstate.obj
+ 0001:00000180       _InitializeGetCRState      004003a0 f   getcrstate.obj
+ 0001:00000570       _GetRegVal                 00400790 f   getcrstate.obj
+ 0001:00000670       _GetSelVal                 00400890 f   getcrstate.obj
+ 0001:000006e0       _GetTableBase              00400900 f   getcrstate.obj
+ 0001:00000710       _GetTableLimit             00400930 f   getcrstate.obj
+ 0002:000007d0       _Cursor                    00401130     <common>
+
+ entry point at        0001:00000180
+
+ Static symbols
+
